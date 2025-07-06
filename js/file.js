@@ -504,7 +504,7 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("file:///D:/Web%20course/Projects/Project_D_Responsive_JS/Login.html");
+          window.open("Login.html#login");
         }
       });
     });
@@ -516,7 +516,7 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("file:///D:/Web%20course/Projects/Project_D_Responsive_JS/Login.html");
+          window.open("Login.html#login");
         }
       });
     });
