@@ -89,7 +89,7 @@ function addFocusAndBlurEvents(inputs, labels) {
 let homePage = document.querySelector(".login-img-container");
 if(homePage){
     homePage.addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "http://127.0.0.1:5500/index.html";
     });
 }
 
