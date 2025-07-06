@@ -95,7 +95,7 @@ let loginEmail = document.querySelector(".login-email");
               window.localStorage.setItem("loginPassword", loginPassword.value);
               window.localStorage.setItem("loginCheck" , true)
 
-              window.location.href = "http://127.0.0.1:5500/index.html";
+              window.location.href = "file:///D:/Web%20course/Projects/Project_D_Responsive_JS/index.html";
               return;
             }
           }
@@ -504,7 +504,7 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("http://127.0.0.1:5500/Login.html#login");
+          window.open("/Login.html#login");
         }
       });
     });
@@ -516,7 +516,7 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("http://127.0.0.1:5500/Login.html#login");
+          window.open("/Login.html#login");
         }
       });
     });
@@ -554,7 +554,7 @@ let loginEmail = document.querySelector(".login-email");
         window.localStorage.setItem("loginCheck" , false)
         window.localStorage.removeItem("loginEmail");
         window.localStorage.removeItem("loginPassword");
-        window.location.href = "http://127.0.0.1:5500/index.html";
+        window.location.href = "file:///D:/Web%20course/Projects/Project_D_Responsive_JS/index.html";
         window.localStorage.removeItem("cart")
         window.localStorage.removeItem("favourite")
       });
