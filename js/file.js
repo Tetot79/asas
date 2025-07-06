@@ -16,7 +16,7 @@ let loginEmail = document.querySelector(".login-email");
   let dropDownMenuButton = document.querySelectorAll(".dropdown-item");
 
   let bigCard = document.querySelector(".login-register-container");
-
+  localStorage.clear()
   if (dropDownMenuButton) {
     dropDownMenuButton.forEach((item) => {
       item.addEventListener("click", () => {
