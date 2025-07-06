@@ -85,6 +85,10 @@ let loginEmail = document.querySelector(".login-email");
   if (loginSubmit) {
     loginSubmit.addEventListener("click", () => {
       if (loginEmail && loginPassword) {
+        if(loginEmail.value === "" || loginPassword.value === ""){
+          alert("Please fill the fields");
+          return;
+        }
         if (loginEmail.value !== "" && loginPassword.value !== "") {
           for (let i = 0; i < registerEmailValue.length; i++) {
             if (
@@ -95,7 +99,8 @@ let loginEmail = document.querySelector(".login-email");
               window.localStorage.setItem("loginPassword", loginPassword.value);
               window.localStorage.setItem("loginCheck" , true)
 
-              window.location.href = "file:///D:/Web%20course/Projects/Project_D_Responsive_JS/index.html";
+              window.location.href = "index.html";
+
               return;
             }
           }
