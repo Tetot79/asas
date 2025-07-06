@@ -442,7 +442,6 @@ let loginEmail = document.querySelector(".login-email");
       });
     }
   }
-  localStorage.clear()
 
 
   if(window.localStorage.getItem("loginCheck") === "false"){
