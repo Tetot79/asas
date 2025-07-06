@@ -556,7 +556,7 @@ let loginEmail = document.querySelector(".login-email");
         window.localStorage.setItem("loginCheck" , false)
         window.localStorage.removeItem("loginEmail");
         window.localStorage.removeItem("loginPassword");
-        window.location.href = "file:///D:/Web%20course/Projects/Project_D_Responsive_JS/index.html";
+        window.location.href = "index.html";
         window.localStorage.removeItem("cart")
         window.localStorage.removeItem("favourite")
       });
