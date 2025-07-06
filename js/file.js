@@ -438,7 +438,7 @@ let loginEmail = document.querySelector(".login-email");
 
     if (cartItem) {
       cartItem.addEventListener("click", () => {
-        window.location.href = "http://127.0.0.1:5500/Cart.html";
+        window.location.href = "Cart.html";
       });
     }
   }
@@ -504,7 +504,8 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("../Login.html","_self");
+          window.open("Login.html", "_blank");
+
         }
       });
     });
@@ -516,7 +517,8 @@ let loginEmail = document.querySelector(".login-email");
           !window.localStorage.getItem("loginEmail") ||
           !window.localStorage.getItem("loginPassword")
         ) {
-          window.open("../Login.html","_self");
+          window.open("Login.html", "_blank");
+
         }
       });
     });
