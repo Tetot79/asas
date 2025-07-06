@@ -340,7 +340,6 @@ let loginEmail = document.querySelector(".login-email");
   
   
   
-  // window.localStorage.clear()
   //  window.localStorage.removeItem("totalPrice")
   if (window.localStorage.getItem("loginCheck") === "true") {
     let str = 0
@@ -500,7 +499,6 @@ let loginEmail = document.querySelector(".login-email");
       }
     });
   }
-  
   if (addToCart.length > 0) {
     addToCart.forEach((item) => {
       item.addEventListener("click", () => {
@@ -527,7 +525,6 @@ let loginEmail = document.querySelector(".login-email");
       });
     });
   }
-// localStorage.clear()
   let navButton = document.querySelector(".navlink1");
   let navButton1 = document.querySelector(".Reg");
   let logout = document.querySelector(".logout");
